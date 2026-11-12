@@ -1,5 +1,7 @@
 # Bash / Linux · Primeros scripts
 
+[![Bash checks](https://github.com/tzayadet/Bash-Linux/actions/workflows/bash-checks.yml/badge.svg)](https://github.com/tzayadet/Bash-Linux/actions/workflows/bash-checks.yml)
+
 Repositorio de prácticas pequeñas de terminal y scripting. Incluye un ejemplo inicial de salida por consola.
 
 ## Contenido
