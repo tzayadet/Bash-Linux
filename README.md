@@ -1,38 +1,54 @@
-# Bash / Linux · Primeros scripts
+<p align="center">
+  <img src="https://img.shields.io/badge/SYSTEMS-BASH_%26_LINUX-101010?style=for-the-badge&labelColor=050805&color=00FF41" alt="Bash and Linux"/>
+  <img src="https://img.shields.io/badge/SHELL-SCRIPTING-101010?style=for-the-badge&logo=gnubash&logoColor=00FF41" alt="Shell scripting"/>
+</p>
 
-[![GitHub Pages](https://github.com/tzayadet/Bash-Linux/actions/workflows/pages.yml/badge.svg)](https://github.com/tzayadet/Bash-Linux/actions/workflows/pages.yml)
+# Bash / Linux
 
-[![Bash checks](https://github.com/tzayadet/Bash-Linux/actions/workflows/bash-checks.yml/badge.svg)](https://github.com/tzayadet/Bash-Linux/actions/workflows/bash-checks.yml)
+Small command-line exercises and shell scripting notes. The repository currently keeps its examples deliberately lightweight.
 
-Repositorio de prácticas pequeñas de terminal y scripting. Incluye un ejemplo inicial de salida por consola.
+<p align="center">
+  <a href="https://tzayadet.github.io/Bash-Linux/"><strong>PROJECT SHOWCASE ↗</strong></a> ·
+  <a href="https://github.com/tzayadet/Bash-Linux"><strong>SOURCE CODE</strong></a>
+</p>
 
-## Contenido
+[![GitHub Pages](https://github.com/tzayadet/Bash-Linux/actions/workflows/pages.yml/badge.svg)](https://github.com/tzayadet/Bash-Linux/actions/workflows/pages.yml) · [![Bash checks](https://github.com/tzayadet/Bash-Linux/actions/workflows/bash-checks.yml/badge.svg)](https://github.com/tzayadet/Bash-Linux/actions/workflows/bash-checks.yml)
 
-- `EchoHello.sh`: ejemplo mínimo de script Bash.
+## Contents
 
-## Ejecución
+- `EchoHello.sh`: introductory Bash script demonstrating console output.
 
-En Linux o macOS:
+## Run locally
+
+On Linux or macOS:
 
 ```bash
 chmod +x EchoHello.sh
 ./EchoHello.sh
 ```
 
-También puede ejecutarse con:
+Or invoke it explicitly:
 
 ```bash
 bash EchoHello.sh
 ```
 
-## Tecnologías
+## Technology
 
 - Bash
+- Linux command line
 - Shell scripting
 
-## Project showcase
+## Showcase and deployment
 
-[Open the Bash / Linux showcase](https://tzayadet.github.io/Bash-Linux/) · [Showcase source](docs/index.html)
+The [static showcase](https://tzayadet.github.io/Bash-Linux/) presents the sample script. It does not provide a remote shell or execute commands on the server.
 
-The page presents the sample script; it does not provide a remote shell. To publish it, select **Settings → Pages → Build and deployment → Source → GitHub Actions** and set the repository Actions variable `ENABLE_PAGES=true` under **Settings → Secrets and variables → Actions → Variables**.
+The Pages workflow is defined in `.github/workflows/pages.yml`. The repository also uses the `ENABLE_PAGES=true` Actions variable as a deployment gate.
 
+## Scope
+
+This is an introductory practice repository, not a Linux administration toolkit. Examples are retained as small, readable exercises.
+
+## License
+
+See [LICENSE](LICENSE).
