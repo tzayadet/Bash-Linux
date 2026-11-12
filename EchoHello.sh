@@ -1,2 +1,3 @@
-@echo off
-echo 'HELLO'
+#!/usr/bin/env bash
+
+printf 'HELLO\n'
