@@ -8,7 +8,7 @@
 Small command-line exercises and shell scripting notes. The repository currently keeps its examples deliberately lightweight.
 
 <p align="center">
-  <a href="https://tzayadet.github.io/Bash-Linux/"><strong>PROJECT SHOWCASE ↗</strong></a> ·
+  <a href="https://tzayadet.github.io/Bash-Linux/"><strong>LIVE DEMO ↗</strong></a> ·
   <a href="https://github.com/tzayadet/Bash-Linux"><strong>SOURCE CODE</strong></a>
 </p>
 
