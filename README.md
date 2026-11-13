@@ -8,8 +8,8 @@
 Small command-line exercises and shell scripting notes. The repository currently keeps its examples deliberately lightweight.
 
 <p align="center">
-  <a href="https://tzayadet.github.io/Bash-Linux/"><strong>LIVE DEMO ↗</strong></a> ·
-  <a href="https://github.com/tzayadet/Bash-Linux"><strong>SOURCE CODE</strong></a>
+  <a href="docs/index.html"><strong>SHOWCASE SOURCE</strong></a> ·
+  <a href="https://github.com/tzayadet/Bash-Linux"><strong>SOURCE CODE</strong></a> · <sub>PAGES ACTIVATION REQUIRED</sub>
 </p>
 
 [![GitHub Pages](https://github.com/tzayadet/Bash-Linux/actions/workflows/pages.yml/badge.svg)](https://github.com/tzayadet/Bash-Linux/actions/workflows/pages.yml) · [![Bash checks](https://github.com/tzayadet/Bash-Linux/actions/workflows/bash-checks.yml/badge.svg)](https://github.com/tzayadet/Bash-Linux/actions/workflows/bash-checks.yml)
@@ -41,7 +41,7 @@ bash EchoHello.sh
 
 ## Showcase and deployment
 
-The [static showcase](https://tzayadet.github.io/Bash-Linux/) presents the sample script. It does not provide a remote shell or execute commands on the server.
+The static showcase source is in `docs/`. GitHub Pages activation is required before it can be viewed publicly. It does not provide a remote shell or execute commands on the server.
 
 The Pages workflow is defined in `.github/workflows/pages.yml`. The repository also uses the `ENABLE_PAGES=true` Actions variable as a deployment gate.
 
